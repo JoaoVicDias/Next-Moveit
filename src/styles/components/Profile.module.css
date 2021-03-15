@@ -1,0 +1,30 @@
+.profile_conteiner{
+    display: flex;
+    align-items: ;
+}
+
+.profile_conteiner > img{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.profile_conteiner div{
+    margin-left: 1.5rem;
+}
+
+.profile_conteiner div strong{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.profile_conteiner div p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profile_conteiner div p img{
+    margin-right: 0.5rem;
+}
+

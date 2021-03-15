@@ -1,0 +1,101 @@
+.challengebox__conteiner{
+    height: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.challengebox__not__active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challengebox__not__active strong{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.challengebox__not__active p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+    max-width: 70%;
+    margin-top: 3rem;
+}
+
+.challengebox__not__active p img{
+    margin-bottom: 1rem;
+}
+
+.challengebox__active{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.challengebox__active header{
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--gray-line);
+}
+
+.challengebox__active main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.challengebox__active main strong{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--title);
+    margin: 1.5rem 0 1rem;
+}
+
+.challengebox__active main p{
+    line-height: 1.5;
+}
+
+.challengebox__active footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.challengebox__active footer button{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: filter 0.2s ;
+}
+
+.challengebox__active footer button.ChallengeBox_falied__button{
+    background-color: var(--red);
+}
+
+.challengebox__active footer button.ChallengeBox_succeeded__button{
+    background-color: var(--green);
+}
+
+.challengebox__active footer button:hover{
+    filter: brightness(0.9);
+}
